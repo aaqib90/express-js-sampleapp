@@ -1,0 +1,102 @@
+{
+	"id": "35e6ab3c-0b3f-7186-4141-fccea0468c27",
+	"name": "sample-express-employee-app",
+	"description": "",
+	"order": [
+		"917159e7-31c7-e8e0-f0ce-0509dc278d47",
+		"05d3a155-f061-dae6-be3d-6e43eb4a8879",
+		"664ffd4f-bb74-f796-616b-55757c34cbfe"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1593514581584,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "05d3a155-f061-dae6-be3d-6e43eb4a8879",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/create-employee",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "35e6ab3c-0b3f-7186-4141-fccea0468c27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/create-employee",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1593514661291,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"id\": 1,\n    \"name\": \"John 2\"\n}"
+		},
+		{
+			"id": "664ffd4f-bb74-f796-616b-55757c34cbfe",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/update-employee",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "35e6ab3c-0b3f-7186-4141-fccea0468c27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/update-employee",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1593514773728,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"id\": 1,\n    \"name\": \"John 3\"\n}"
+		},
+		{
+			"id": "917159e7-31c7-e8e0-f0ce-0509dc278d47",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/get-employee",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "35e6ab3c-0b3f-7186-4141-fccea0468c27",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:3000/get-employee",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1593514595492,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
